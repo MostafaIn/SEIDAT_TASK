@@ -2,7 +2,7 @@
 
 ##DEMO
 
-[demo](https://mostafain.github.io/SEIDAT_TASK/index.html)
+[demo](https://mostafain.github.com/SEIDAT_TASK/index.html)
 
 
 ## Screenshot
