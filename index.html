@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seidat(Developer Task)</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/d90efd8b80.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="root">
+        <input class="url-input" placeholder="https://" />
+        <i class="far fa-star"></i>
+        <div class="bookmarked-list">
+        </div>
+        <div class="line"></div>
+        <iframe class="screen"></iframe>
+
+        <!-- MODAL -->
+        <div id="backdrop"></div>
+        <div id="modal">
+            <i class="fas fa-times"></i>
+            <h6 class="modal-state"></h6>
+            <div class="modal-input">
+                <h5>Name</h5>
+                <input class="name-input" />
+            </div>
+            <div class="modal-actions">
+                <button class="btn-remove">Remove</button>
+                <button class="btn-done">Done</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
